@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "AIT project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameymeher/MEAN-Stack-Project.git"
+  },
+  "keywords": [
+    "MEAN",
+    "stack"
+  ],
+  "author": "Amey Meher, Satyajit Kamble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameymeher/MEAN-Stack-Project/issues"
+  },
+  "homepage": "https://github.com/ameymeher/MEAN-Stack-Project#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1"
+  }
+}
